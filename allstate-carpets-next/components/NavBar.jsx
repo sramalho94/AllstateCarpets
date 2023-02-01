@@ -8,13 +8,13 @@ const NavBar = () => {
         <Image src="/../public/aclogo.png " height={110} width={110} alt="logo" className='pl-3 pt-2'/>
         <ul className="flex items-center">
           <li>
-            <Link href="/" className="text-[#ac1010] font-bold">
+            <Link href="/" className="text-[#ac1010] font-bold rounded p-2 hover:bg-[#a4614c]">
               {' '}
               Home
             </Link>
           </li>
           <li>
-            <Link href="/about" className='text-[#ac1010] font-bold'>
+            <Link href="/about" className='text-[#ac1010] font-bold rounded p-2 hover:bg-[#a4614c]'>
                 About Us
             </Link>
           </li>

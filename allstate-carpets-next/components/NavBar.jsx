@@ -13,6 +13,11 @@ const NavBar = () => {
               Home
             </Link>
           </li>
+          <li>
+            <Link href="/about" className='text-red-700 font-bold'>
+                About Us
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

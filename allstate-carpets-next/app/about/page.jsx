@@ -19,7 +19,7 @@ const About = () => {
       id="staff-photo-container"
       className="flex flex-col justify-center md:flex-row align-middle my-auto flex-1"
     >
-      <div className="flex flex-col mt-2 p-2">
+      <div className="flex flex-col mt-2 p-2 hover:brightness-50">
         <Image
           className="rounded-full  shadow-2xl pt-1"
           src="/../public/LisaPaul.jpeg"
@@ -28,7 +28,7 @@ const About = () => {
         />
         <p>Lisa Paul, President</p>
       </div>
-      <div className="flex flex-col mt-2 p-2">
+      <div className="flex flex-col mt-2 p-2 hover:brightness-50">
         <Image 
           className="rounded-full shadow-2xl pt-1"
           src="/../public/JMP.jpeg"

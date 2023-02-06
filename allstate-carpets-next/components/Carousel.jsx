@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Carousel = () => {
@@ -10,10 +11,10 @@ const Carousel = () => {
           <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">
             First Slide
           </span>
-          <img
-            src="/docs/images/carousel/carousel-1.svg"
+          <Image
+            src="/../public/pic2.jpeg"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
+            alt="..." width={120} height={120}
           />
         </div>
         {/* <!-- Item 2 --> */}

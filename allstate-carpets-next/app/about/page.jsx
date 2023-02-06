@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -37,8 +37,8 @@ const About = () => {
         <p className="text-center">Jeremy Paul, Vice President</p>
       </div>
       </div>
+      </div>
     </div>
-  </div>
   )
 }
 

@@ -8,16 +8,49 @@ import { RxDotFilled } from 'react-icons/rx'
 const Carousel = () => {
   const slides = [
     {
+      url: '/../public/Dispensery1.jpg'
+    },
+    {
+      url: '/../public/Dispensery2.jpg'
+    },
+    {
       url: '/../public/pic2.jpeg'
     },
     {
       url: '/../public/pic3.jpeg'
     },
     {
+      url: '/../public/Dispensery3.jpg'
+    },
+    {
+      url: '/../public/Dispensery4.jpg'
+    },
+    {
       url: '/../public/pic4.jpeg'
     },
     {
       url: '/../public/pic5.jpeg'
+    },
+    {
+      url: '/../public/pic6.jpeg'
+    },
+    {
+      url: '/../public/pic7.jpeg'
+    },
+    {
+      url: '/../public/Dispensery5.jpg'
+    },
+    {
+      url: '/../public/Dispensery6.jpg'
+    },
+    {
+      url: '/../public/pic9.jpeg'
+    },
+    {
+      url: '/../public/pic10.jpeg'
+    },
+    {
+      url: '/../public/pic11.jpeg'
     }
   ]
 

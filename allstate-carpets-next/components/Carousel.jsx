@@ -1,112 +1,77 @@
+'use client'
+
 import Image from 'next/image'
-import React from 'react'
+import { useState } from 'react'
+import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
+import { RxDotFilled } from 'react-icons/rx'
 
 const Carousel = () => {
+  const slides = [
+    {
+      url: '/../public/pic2.jpeg'
+    },
+    {
+      url: '/../public/pic3.jpeg'
+    },
+    {
+      url: '/../public/pic4.jpeg'
+    },
+    {
+      url: '/../public/pic5.jpeg'
+    }
+  ]
+
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const prevSlide = () => {
+    const isFirstSlide = currentIndex === 0
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1
+    setCurrentIndex(newIndex)
+  }
+
+  const nextSlide = () => {
+    const isLastSlide = currentIndex === slides.length - 1
+    const newIndex = isLastSlide ? 0 : currentIndex + 1
+    setCurrentIndex(newIndex)
+  }
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex)
+  }
+
   return (
-    <div id="default-carousel" class="relative" data-carousel="static">
-      {/* <!-- Carousel wrapper --> */}
-      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        {/* <!-- Item 1 --> */}
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">
-            First Slide
-          </span>
-          <Image
-            src="/../public/pic2.jpeg"
-            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..." width={120} height={120}
-          />
+    <div className="max-w-[1440px] h-[full] w-[780px] m-auto py-16 px-4 relative group">
+      <div
+        className="w-[780px] h-full rounded-2xl bg-center bg-cover duration-500]"
+        // style={{ backgroundImage: `url(${slides[0].url})` }}
+      >
+        <Image
+          alt="image1"
+          width={400}
+          height={400}
+          src={`${slides[currentIndex].url}`}
+          className="w-[780px] h-full rounded-2xl bg-center bg-cover duration-500]"
+        />
+        {/* Left Arrow */}
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+          <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
-        {/* <!-- Item 2 --> */}
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="/docs/images/carousel/carousel-2.svg"
-            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
-        </div>
-        {/* <!-- Item 3 --> */}
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="/docs/images/carousel/carousel-3.svg"
-            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
+        {/* Right Arrow */}
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+          <BsChevronCompactRight size={30} onClick={nextSlide} />
         </div>
       </div>
-      {/* <!-- Slider indicators --> */}
-      <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-        <button
-          type="button"
-          class="w-3 h-3 rounded-full"
-          aria-current="false"
-          aria-label="Slide 1"
-          data-carousel-slide-to="0"
-        ></button>
-        <button
-          type="button"
-          class="w-3 h-3 rounded-full"
-          aria-current="false"
-          aria-label="Slide 2"
-          data-carousel-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          class="w-3 h-3 rounded-full"
-          aria-current="false"
-          aria-label="Slide 3"
-          data-carousel-slide-to="2"
-        ></button>
+      <div className="flex top-4 justify-center py-2">
+        {slides.map((slide, slideIndex) => (
+          <div
+            className="text-2xl cursor-pointer"
+            key={slideIndex}
+            onClick={() => goToSlide(slideIndex)}
+          >
+            <RxDotFilled />
+          </div>
+        ))}
       </div>
-      {/* <!-- Slider controls --> */}
-      <button
-        type="button"
-        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        data-carousel-prev
-      >
-        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg
-            aria-hidden="true"
-            class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M15 19l-7-7 7-7"
-            ></path>
-          </svg>
-          <span class="sr-only">Previous</span>
-        </span>
-      </button>
-      <button
-        type="button"
-        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        data-carousel-next
-      >
-        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg
-            aria-hidden="true"
-            class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5l7 7-7 7"
-            ></path>
-          </svg>
-          <span class="sr-only">Next</span>
-        </span>
-      </button>
     </div>
   )
 }

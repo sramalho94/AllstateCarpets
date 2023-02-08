@@ -1,4 +1,5 @@
 import bg from './/../public/TransparentBG.png'
+import Link from 'next/link'
 
 const Welcome = () => {
   return (
@@ -11,23 +12,17 @@ const Welcome = () => {
       }}
       className="flex flex-col md:flex-row-reverse w-screen bg-cover md:justify-between"
     >
-      <div className="flex flex-col  bg-white rounded-2xl my-10 mx-5 bg-opacity-50 md:mt-80">
-        <h1 className="font-bold text-center">Let Us Floor You</h1>
-        <p className="text-center max-w-lg text-[#ac1010] ">
-          Established in 1971, we are family owned business that has been
-          providing outstanding flooring services to the Washington metropolitan
-          area for over 50 years. In September of 1971, Allstate Building and
-          Carpet Supplies, Inc. was established and moved into a warehouse space
-          in Alexandria, VA. Carolyn Pizzano became the owner and ran the
-          business from 1971-1983 when her daughter Lisa Paul graduated from St.
-          Leo college and took over the family business. Now, Lisa and her son
-          Jeremy continue to provide the DMV area with quality flooring
-          products.
+      <div className="flex flex-col  bg-white rounded-2xl my-10 mx-5 bg-opacity-50 md:mt-80 justify-end">
+        <h1 className="font-bold text-center">Welcome to Allstate Carpets</h1>
+        <p className="text-center max-w-lg text-[#ac1010] font-bold ">Let Us Floor You! Serving the DMV area since 1971
         </p>
+        <div className='mb-5 mt-5'>
+        <Link href='/about' className="text-[#ac1010] font-bold rounded p-2 bg-[#a4614c]">About Us</Link>
+        </div>
       </div>
-      <div className="md:mt-80 mx-3">
-        <h1 className="font-bold text-3xl text-[#ac1010]">Services Provided</h1>
-        <ul className="grid grid-cols-2 list-disc  font-bold text-[#ac1010] bg-white rounded-2xl bg-opacity-50  my-8 px-4 py-4 justify-between">
+      <div className="flex flex-col  bg-white rounded-2xl my-10 mx-5 bg-opacity-50 md:mt-80">
+      <h1 className="font-bold text-xl text-[#ac1010] mt-5 ml-2 text-center">Services Provided</h1>
+        <ul className="grid grid-cols-2 list-disc  font-bold text-[#ac1010] my-8 px-4 py-4 justify-between">
           <li className="ml-2">Broadloom Carpet</li>
           <li className="ml-5">Broadloom over Pad</li>
           <li className="ml-2">Carpet Tile</li>

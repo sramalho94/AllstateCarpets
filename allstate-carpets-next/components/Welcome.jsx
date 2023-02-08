@@ -8,7 +8,25 @@ const Welcome = () => {
       width: '100%',
       height: '100%',
       opacity: '50%'
-    }}> Welcome </div>
+    }} className="flex flex-row-reverse"> 
+    <div className=''>Welcome
+
+
+
+
+
+
+
+
+
+
+
+    
+    </div>
+    <div>
+        Services Provided
+    </div>
+    </div>
   )
 }
 

@@ -5,12 +5,11 @@ import Footer from '@/components/Footer'
 import Welcome from '@/components/Welcome'
 import Carousel from '@/components/Carousel'
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="bg-[#e3cba3] h-full">
+    <main className="bg-[#e3cba3] bg-cover">
       <div>
         <Welcome />
         <Carousel />

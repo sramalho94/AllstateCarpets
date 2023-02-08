@@ -70,11 +70,11 @@ const Carousel = () => {
   }
 
   return (
-    <div className="max-w-[1440px] h-[full] w-[780px] m-auto py-16 px-4 relative group">
-      <h1 className='text-4xl font-bold text-center mb-7 text-[#ac1010]'>Our Work</h1>
-      <div
-        className="w-[780px] h-full rounded-2xl bg-center bg-cover duration-500"
-      >
+    <div className="max-w-[1440px] h-[full] md:w-[780px] m-auto py-16 px-4 relative group">
+      <h1 className="text-4xl font-bold text-center mb-7 text-[#ac1010]">
+        Our Work
+      </h1>
+      <div className="w-full md:w-[780px] h-full rounded-2xl bg-center bg-cover duration-500">
         <Image
           alt="image1"
           width={400}

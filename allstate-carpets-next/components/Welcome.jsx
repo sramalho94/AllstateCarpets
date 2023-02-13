@@ -1,4 +1,4 @@
-import bg from './/../public/TransparentBG.jpeg'
+import bg from './/../public/TransparentBG2.jpeg'
 import Link from 'next/link'
 
 const Welcome = () => {
@@ -10,7 +10,7 @@ const Welcome = () => {
         width: '100%'
         // height: '100%'
       }}
-      className="flex flex-col md:flex-row-reverse w-screen bg-cover md:justify-between lg:justify-around"
+      className="flex flex-col md:flex-row-reverse w-screen bg-cover md:justify-between lg:justify-around bg-center"
     >
       <div className="flex flex-col my-10 mx-5 md:mt-80 justify-end">
         <div className='bg-white rounded-2xl bg-opacity-50 px-5 py-2'>

@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import './globals.css'
-import Footer from '@/components/Footer'
 import Welcome from '@/components/Welcome'
 import Carousel from '@/components/Carousel'
 
@@ -15,7 +14,6 @@ export default function Home() {
         <Carousel />
       </div>
       <div>testimonials</div>
-      <Footer />
     </main>
   )
 }

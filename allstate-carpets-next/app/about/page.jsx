@@ -1,10 +1,11 @@
 import Image from 'next/image'
 
+
 const About = () => {
   return (
-    <div id="aboutus-container" className="bg-[#e3cba3] flex flex-col px-5">
-      <div className="flex flex-col md:flex-row">
-        <div className="flex-1 mb-1 rounded shadow-xl md:ml-10 justify-center align-middle text-center">
+    <div id="aboutus-container" className="bg-[#e3cba3] flex flex-col px-5 h-screen">
+      <div className="flex flex-col md:flex-row my-auto">
+        <div className="flex-1 mb-1 rounded shadow-xl md:ml-20 justify-center align-middle text-center mx-auto bg-white bg-opacity-75">
           <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-10 md:pl-16">
             Specialty
           </h1>
@@ -15,7 +16,8 @@ const About = () => {
             services, and Window Treatments. From start to finish we will work
             closely with our client and till they are 100% satisfied.
           </p>
-          <br></br>
+          </div>
+          <div className="flex-1 mb-1 rounded shadow-xl md:ml-20 justify-center align-middle text-center mx-auto bg-white bg-opacity-75">
           <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-16">
             About Allstate
           </h1>
@@ -48,13 +50,15 @@ const About = () => {
             <p className="text-center">Lisa Paul, President</p>
           </div>
           <div className="flex flex-col mt-2 p-2 hover:brightness-50 mx-auto">
+          <div className="mx-auto">
             <Image
               className="rounded-full shadow-2xl pt-1"
-              src="/../public/JMP.jpeg"
+              src="/../public/resizedjeremy.jpg"
               alt="picture1"
-              width={160}
-              height={160}
+              width={120}
+              height={120}
             />
+            </div>
             <p className="text-center">Jeremy Paul, Vice President</p>
           </div>
         </div>

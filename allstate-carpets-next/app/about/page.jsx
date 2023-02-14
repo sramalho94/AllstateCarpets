@@ -3,16 +3,25 @@ import bg from '../../public/aboutusbg.png'
 
 const About = () => {
   return (
-    <div id="aboutus-container" className="bg-[#e3cba3] flex flex-col h-screen">
+    <div
+      id="aboutus-container"
+      className="bg-[#e3cba3] flex flex-col h-fit md:h-screen"
+    >
       <div
-        className="bg-[#80241b] w-screen h-80 mx-auto bg-cover"
+        className="bg-[#80241b] w-screen  mx-auto bg-cover md:h-80 mb-5"
         style={{
           backgroundImage: `url(${bg.src})`,
 
           width: '100%'
           // height: '100%'
         }}
-      ></div>
+      >
+        <p className="opacity-0">
+          Vinyl Flooring, Wood Flooring, Vinyl Base, Wood Base, Carpet cleaning
+          services, and Window Treatments. From start to finish we will work
+          closely with our client and till they are 100% satisfied.
+        </p>
+      </div>
       <div className="flex flex-col md:flex-row my-auto md:mr-10 ">
         <div className="mx-auto my-auto text-center ">
           <div className="flex-1 mb-5 rounded-xl shadow-xl md:ml-20 justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">

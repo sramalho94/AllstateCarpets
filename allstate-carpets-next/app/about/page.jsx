@@ -46,9 +46,7 @@ const About = () => {
               providing outstanding flooring services to the Washington
               metropolitan area for over 50 years. In September of 1971,
               Allstate Building and Carpet Supplies, Inc. was established and
-              moved into a warehouse space in Alexandria, VA. Carolyn Pizzano
-              became the owner and ran the business from 1971-1983 when her
-              daughter Lisa Paul graduated from St. Leo college and took over
+              moved into a warehouse space in Alexandria, VA. In 1983, Lisa Paul took over
               the family business. Now, Lisa and her son Jeremy continue to
               provide the DMV area with quality flooring products.
             </p>

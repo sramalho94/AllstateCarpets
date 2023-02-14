@@ -1,11 +1,18 @@
 import Image from 'next/image'
+import bg from '../../public/aboutusbg.png'
 
 const About = () => {
   return (
-    <div
-      id="aboutus-container"
-      className="bg-[#e3cba3] flex flex-col px-5 h-screen"
-    >
+    <div id="aboutus-container" className="bg-[#e3cba3] flex flex-col h-screen">
+      <div
+        className="bg-[#80241b] w-screen h-80 mx-auto bg-cover"
+        style={{
+          backgroundImage: `url(${bg.src})`,
+
+          width: '100%'
+          // height: '100%'
+        }}
+      ></div>
       <div className="flex flex-col md:flex-row my-auto md:mr-10 ">
         <div className="mx-auto my-auto text-center ">
           <div className="flex-1 mb-5 rounded-xl shadow-xl md:ml-20 justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">
@@ -52,7 +59,9 @@ const About = () => {
                 height={120}
               />
             </div>
-            <p className="text-center">Lisa Paul, President</p>
+            <p className="text-center text-[#80241b] font-bold">
+              Lisa Paul, President
+            </p>
           </div>
           <div className="flex flex-col mt-2 p-2 hover:brightness-50 mx-auto">
             <div className="mx-auto">
@@ -64,7 +73,9 @@ const About = () => {
                 height={120}
               />
             </div>
-            <p className="text-center">Jeremy Paul, Vice President</p>
+            <p className="text-center font-bold text-[#80241b]">
+              Jeremy Paul, Vice President
+            </p>
           </div>
         </div>
       </div>

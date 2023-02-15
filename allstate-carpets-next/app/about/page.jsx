@@ -17,9 +17,9 @@ const About = () => {
         }}
       >
         <p className="opacity-0">
-          Vinyl Flooring, Wood Flooring, Vinyl Base, Wood Base, Carpet cleaning
-          services, and Window Treatments. From start to finish we will work
-          closely with our client and till they are 100% satisfied.
+          Vinyl Flooring, Wood Flooring, Vinyl Base, Wood Base, and Carpet cleaning
+          services. From start to finish we will work
+          closely with our client and until they are 100% satisfied.
         </p>
       </div>
       <div className="flex flex-col md:flex-row my-auto md:mr-10 ">
@@ -31,8 +31,8 @@ const About = () => {
             <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5">
               Allstate Carpets wants to floor you! We specialize in a wide
               variety of flooring and interior finishes: Carpet, Carpet Tile,
-              Vinyl Flooring, Wood Flooring, Vinyl Base, Wood Base, Carpet
-              cleaning services, and Window Treatments. From start to finish we
+              Vinyl Flooring, Wood Flooring, Vinyl Base, Millwork Base, and Carpet
+              cleaning services. From start to finish we
               will work closely with our client and till they are 100%
               satisfied.
             </p>

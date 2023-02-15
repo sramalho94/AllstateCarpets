@@ -36,7 +36,6 @@ const Welcome = () => {
           <li className="ml-2">Sheet Vinyl</li>
           <li className="ml-5">Sheet Welding</li>
           <li className="ml-2">Hardwood Floors</li>
-          <li className="ml-5">Free Estimates</li>
         </ul>
       </div>
     </div>

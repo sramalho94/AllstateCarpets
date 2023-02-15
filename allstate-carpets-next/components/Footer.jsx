@@ -23,12 +23,12 @@ const Footer = () => {
               <BsInstagram />
             </a>
           </li>
-          <a href="tel:+1-703-549-6333" className="flex flex-row my-auto">
+          <a href="tel:+1-703-298-9046" className="flex flex-row my-auto">
             <li className="my-auto">
               <AiFillPhone className="text-3xl" />
             </li>
             <li className="my-auto">
-              <p className="font-bold">703-549-6333</p>
+              <p className="font-bold">703-298-9046</p>
             </li>
           </a>
         </div>

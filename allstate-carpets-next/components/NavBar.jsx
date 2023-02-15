@@ -8,10 +8,10 @@ const NavBar = () => {
         <Link href="/">
           <Image
             src="/../public/aclogo.png "
-            height={140}
-            width={140}
+            height={120}
+            width={120}
             alt="logo"
-            className="md:pl-10 pt-2"
+            className="md:pl-10 pt-2 md:h-160 md:w-160"
           />
         </Link>
         <div className="md:flex md:flex-col my-auto hidden ">
@@ -38,6 +38,14 @@ const NavBar = () => {
               className="text-[#ac1010] font-bold rounded p-2 hover:bg-[#a4614c] text-scale"
             >
               About Us
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/contact"
+              className="text-[#ac1010] font-bold rounded p-2 hover:bg-[#a4614c] text-scale"
+            >
+              Contact Us
             </Link>
           </li>
         </ul>

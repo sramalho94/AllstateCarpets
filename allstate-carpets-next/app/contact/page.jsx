@@ -2,13 +2,24 @@ import Image from 'next/image'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsInstagram } from 'react-icons/bs'
 import { AiFillPhone } from 'react-icons/ai'
+import bg from '../../public/contactus.jpeg'
 
 const Contact = () => {
   return (
     <div
       id="contact-container"
-      className="bg-[#e3cba3] flex flex-col-reverse h-screen  mx-auto align-middle w-screen md:flex-row md:justify-around "
+      className="bg-[#e3cba3] flex flex-col-reverse h-screen  mx-auto align-middle w-screen md:justify-around "
     >
+      <div
+        className="bg-[#80241b] w-screen  mx-auto bg-cover md:h-80 align-bottom"
+        style={{
+          backgroundImage: `url(${bg.src})`,
+
+          width: '100%'
+          // height: '100%'
+        }}
+      ></div>
+      <div className='flex flex-row justify-around'>
       <div className="flex flex-col  my-auto bg-white rounded-2xl bg-opacity-50 p-5">
         <h1 className="font-bold text-[#ac1010] text-3xl underline pb-5">
           Hours of Operation
@@ -103,6 +114,7 @@ const Contact = () => {
             <BsInstagram />
           </a>
           <p>@allstate_carpets</p>
+          </div>
         </div>
       </div>
     </div>

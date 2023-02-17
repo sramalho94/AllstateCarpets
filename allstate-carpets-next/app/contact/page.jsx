@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsInstagram } from 'react-icons/bs'
 import { AiFillPhone } from 'react-icons/ai'
@@ -8,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="contact-container"
-      className="bg-[#e3cba3] flex flex-col-reverse h-screen  mx-auto align-middle w-screen md:justify-around "
+      className="bg-[#e3cba3] flex flex-col-reverse h-screen  mx-auto align-middle w-screen md:justify-around"
     >
       <div
         className="bg-[#80241b] w-screen  mx-auto bg-cover md:h-80 align-bottom"

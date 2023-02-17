@@ -24,8 +24,8 @@ const About = () => {
       </div>
       <div className="flex flex-col md:flex-row my-auto md:mr-10 ">
         <div className="mx-auto my-auto text-center ">
-          <div className="flex-1 mb-5 rounded-xl shadow-xl md:ml-20 justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">
-            <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-16 ">
+          <div className="flex-1 mb-5 rounded-xl shadow-xl md:ml-40 max-w-md justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">
+            <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-13">
               Specialty
             </h1>
             <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5">
@@ -33,12 +33,12 @@ const About = () => {
               variety of flooring and interior finishes: Carpet, Carpet Tile,
               Vinyl Flooring, Wood Flooring, Vinyl Base, Millwork Base, and Carpet
               cleaning services. From start to finish we
-              will work closely with our client and till they are 100%
+              will work closely with our client and until they are 100%
               satisfied.
             </p>
           </div>
-          <div className="flex-1 mb-1 rounded-xl shadow-xl md:ml-20 justify-center align-middle text-center mx-auto bg-white bg-opacity-60">
-            <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-16">
+          <div className="flex-1 mb-1 rounded-xl shadow-xl md:ml-40  max-w-md justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">
+            <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-13">
               About Allstate
             </h1>
             <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5">
@@ -47,7 +47,7 @@ const About = () => {
               metropolitan area for over 50 years. In September of 1971,
               Allstate Building and Carpet Supplies, Inc. was established and
               moved into a warehouse space in Alexandria, VA. In 1983, Lisa Paul took over
-              the family business. Now, Lisa and her son Jeremy continue to
+              the family business. Allstate Carpets continue to 
               provide the DMV area with quality flooring products.
             </p>
           </div>

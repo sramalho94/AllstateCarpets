@@ -18,8 +18,8 @@ const Contact = () => {
           // height: '100%'
         }}
       ></div>
-      <div className="flex flex-row justify-around">
-        <div className="flex flex-col  my-auto bg-white rounded-2xl bg-opacity-50 p-5">
+      <div className="flex flex-col-reverse md:flex-row justify-around py-10">
+        <div className="flex flex-col  my-auto bg-white rounded-2xl bg-opacity-50 p-5 ">
           <h1 className="font-bold text-[#ac1010] text-3xl underline pb-5">
             Hours of Operation
           </h1>
@@ -92,7 +92,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-white rounded-2xl bg-opacity-50 px-5 py-5 my-auto">
+        <div className="flex flex-col bg-white rounded-2xl bg-opacity-50 px-5 py-5 my-auto mb-5">
           <p className="font-bold text-2xl text-[#ac1010] underline">
             Contact Info
           </p>

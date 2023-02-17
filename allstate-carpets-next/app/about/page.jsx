@@ -8,20 +8,14 @@ const About = () => {
       className="bg-[#e3cba3] flex flex-col h-fit md:h-screen"
     >
       <div
-        className="bg-[#80241b] w-screen  mx-auto bg-cover md:h-80 mb-5"
+        className="bg-[#80241b] w-screen  mx-auto bg-cover h-40 md:h-80 mb-5"
         style={{
           backgroundImage: `url(${bg.src})`,
 
           width: '100%'
           // height: '100%'
         }}
-      >
-        <p className="opacity-0">
-          Vinyl Flooring, Wood Flooring, Vinyl Base, Wood Base, and Carpet cleaning
-          services. From start to finish we will work
-          closely with our client and until they are 100% satisfied.
-        </p>
-      </div>
+      ></div>
       <div className="flex flex-col md:flex-row my-auto md:mr-10 ">
         <div className="mx-auto my-auto text-center ">
           <div className="flex-1 mb-5 rounded-xl shadow-xl md:ml-40 max-w-md justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">
@@ -31,10 +25,9 @@ const About = () => {
             <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5">
               Allstate Carpets wants to floor you! We specialize in a wide
               variety of flooring and interior finishes: Carpet, Carpet Tile,
-              Vinyl Flooring, Wood Flooring, Vinyl Base, Millwork Base, and Carpet
-              cleaning services. From start to finish we
-              will work closely with our client and until they are 100%
-              satisfied.
+              Vinyl Flooring, Wood Flooring, Vinyl Base, Millwork Base, and
+              Carpet cleaning services. From start to finish we will work
+              closely with our client and until they are 100% satisfied.
             </p>
           </div>
           <div className="flex-1 mb-1 rounded-xl shadow-xl md:ml-40  max-w-md justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">
@@ -46,8 +39,8 @@ const About = () => {
               providing outstanding flooring services to the Washington
               metropolitan area for over 50 years. In September of 1971,
               Allstate Building and Carpet Supplies, Inc. was established and
-              moved into a warehouse space in Alexandria, VA. In 1983, Lisa Paul took over
-              the family business. Allstate Carpets continue to 
+              moved into a warehouse space in Alexandria, VA. In 1983, Lisa Paul
+              took over the family business. Allstate Carpets continue to
               provide the DMV area with quality flooring products.
             </p>
           </div>

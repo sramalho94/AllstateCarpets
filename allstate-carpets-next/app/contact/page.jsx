@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <div
       id="contact-container"
-      className="bg-[#e3cba3] flex flex-col-reverse h-screen  mx-auto align-middle w-screen md:justify-around"
+      className="bg-[#e3cba3] flex flex-col-reverse h-fit md:h-screen  mx-auto align-middle w-screen md:justify-around"
     >
       <div
-        className="bg-[#80241b] w-screen  mx-auto bg-cover md:h-80 align-bottom"
+        className="bg-[#80241b] w-screen  mx-auto bg-cover h-40 md:h-80 align-bottom"
         style={{
           backgroundImage: `url(${bg.src})`,
 

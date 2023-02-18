@@ -53,7 +53,7 @@ const About = () => {
             <div className="mx-auto">
               <Image
                 className="rounded-full  shadow-2xl pt-1"
-                src="/../public/LisaPaul.jpeg"
+                src="/LisaPaul.jpeg"
                 alt="picture1"
                 width={120}
                 height={120}
@@ -67,7 +67,7 @@ const About = () => {
             <div className="mx-auto">
               <Image
                 className="rounded-full shadow-2xl pt-1"
-                src="/../public/resizedjeremy.jpg"
+                src="/resizedjeremy.jpg"
                 alt="picture1"
                 width={120}
                 height={120}

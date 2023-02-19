@@ -7,7 +7,7 @@ const Testimonials = () => {
     <div className="flex flex-col mx-auto px-5">
       <div className="flex flex-row justify-center pb-10">
         <div className="relative h-40 md:h-96 w-96  mr-5">
-          <Image src="/stockfloor2seg1.jpeg" fill />
+          <Image src="/stockfloor2seg1.jpeg" fill alt="floor1" />
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
           <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle text-[#ac1010] font-bold">
@@ -33,12 +33,12 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="relative h-40 md:h-96 w-96 ">
-          <Image src="/stockfloor2seg2.jpeg" fill />
+          <Image src="/stockfloor2seg2.jpeg" fill alt="floor2" />
         </div>
       </div>
       <div className="flex flex-row justify-center pb-10">
         <div className="relative h-40 md:h-96 w-96  mr-5">
-          <Image src="/stockfloor1.jpg" fill />
+          <Image src="/stockfloor1.jpg" fill alt="floor3" />
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
           <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle text-[#ac1010] font-bold">

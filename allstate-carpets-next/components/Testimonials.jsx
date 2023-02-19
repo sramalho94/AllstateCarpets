@@ -10,7 +10,7 @@ const Testimonials = () => {
           <Image src="/stockfloor2seg1.jpeg" fill alt="floor1" />
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
-          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle text-[#ac1010] font-bold">
+          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
             "As a property manager, I've worked with many flooring companies
             over the years, and Allstate Carpets is by far the best. They
             recently installed luxury vinyl tile in one of my office buildings,
@@ -23,7 +23,7 @@ const Testimonials = () => {
       </div>
       <div className="flex flex-row justify-center pb-10">
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center mr-5">
-          <p className="whitespace-pre-wrap overflow-y-auto text-center text-[#ac1010] font-bold">
+          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
             "We recently hired Allstate Carpets to install broadloom carpet in
             our hotel's lobby and it was a great experience from start to
             finish. The team was knowledgeable, courteous, and completed the job
@@ -41,7 +41,7 @@ const Testimonials = () => {
           <Image src="/stockfloor1.jpg" fill alt="floor3" />
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
-          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle text-[#ac1010] font-bold">
+          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
             "Allstate Carpets is our go-to flooring company for our retail
             stores. They recently installed new sheet vinyl in one of our
             locations, and it was a seamless process from start to finish. The

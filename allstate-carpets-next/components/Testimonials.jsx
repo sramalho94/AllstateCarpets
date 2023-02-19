@@ -9,8 +9,8 @@ const Testimonials = () => {
         <div className="relative h-40 md:h-96 w-96  mr-5">
           <Image src="/stockfloor2seg1.jpeg" fill />
         </div>
-        <div className="relative h-40 md:h-96 w-96 overflow-x-auto my-auto ">
-          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle">
+        <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
+          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle text-[#ac1010] font-bold">
             "As a property manager, I've worked with many flooring companies
             over the years, and Allstate Carpets is by far the best. They
             recently installed luxury vinyl tile in one of my office buildings,
@@ -22,8 +22,8 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="flex flex-row justify-center pb-10">
-        <div className="relative h-40 md:h-96 w-96 overflow-x-auto my-auto">
-          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle">
+        <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center mr-5">
+          <p className="whitespace-pre-wrap overflow-y-auto text-center text-[#ac1010] font-bold">
             "We recently hired Allstate Carpets to install broadloom carpet in
             our hotel's lobby and it was a great experience from start to
             finish. The team was knowledgeable, courteous, and completed the job
@@ -34,6 +34,22 @@ const Testimonials = () => {
         </div>
         <div className="relative h-40 md:h-96 w-96 ">
           <Image src="/stockfloor2seg2.jpeg" fill />
+        </div>
+      </div>
+      <div className="flex flex-row justify-center pb-10">
+        <div className="relative h-40 md:h-96 w-96  mr-5">
+          <Image src="/stockfloor1.jpg" fill />
+        </div>
+        <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
+          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle text-[#ac1010] font-bold">
+            "Allstate Carpets is our go-to flooring company for our retail
+            stores. They recently installed new sheet vinyl in one of our
+            locations, and it was a seamless process from start to finish. The
+            team was always on time, professional, and provided us with great
+            recommendations on the best flooring options for our needs. We
+            couldn't be happier with the results and highly recommend Allstate
+            Carpets for all commercial flooring services."
+          </p>
         </div>
       </div>
     </div>

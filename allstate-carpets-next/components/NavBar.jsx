@@ -7,7 +7,7 @@ const NavBar = () => {
       <nav className="pb-4 flex justify-between bg-[#e3cba3] bg-gradient-to-r from-[#cc7c64] border-b-2 border-[#80241b]">
         <Link href="/">
           <Image
-            src="/../public/aclogo.png "
+            src="/aclogo.png "
             height={120}
             width={120}
             alt="logo"

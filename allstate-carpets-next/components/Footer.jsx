@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <li>
         <Image
-          src="/../public/aclogo.png "
+          src="/aclogo.png "
           height={110}
           width={110}
           alt="logo"

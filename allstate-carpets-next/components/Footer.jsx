@@ -18,6 +18,7 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/allstate_carpets/?hl=en"
               target="_blank"
+              rel="norefferer"
               className="text-2xl"
             >
               <BsInstagram />

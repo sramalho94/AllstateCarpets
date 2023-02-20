@@ -50,7 +50,7 @@ const About = () => {
             id="staff-photo-container"
             className="flex justify-center flex-row align-middle my-auto flex-1"
           >
-            <div className="flex flex-col mt-2 mx-auto mr-5">
+            <div className="flex flex-col mt-2 mx-auto mr-5 md:mr-30">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"
@@ -69,7 +69,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col mt-2  mx-auto">
+            <div className="flex flex-col mt-2  mx-auto ml-5 md:ml-30">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"
@@ -93,7 +93,7 @@ const About = () => {
             id="staff-photo-container"
             className="flex justify-center flex-row align-middle my-auto flex-1 "
           >
-            <div className="flex flex-col mt-2 mx-auto mr-5">
+            <div className="flex flex-col mt-2 mx-auto mr-5 md:mr-30">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"
@@ -115,7 +115,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col mt-2  mx-auto">
+            <div className="flex flex-col mt-2  mx-auto ml-5 md:ml-30">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"

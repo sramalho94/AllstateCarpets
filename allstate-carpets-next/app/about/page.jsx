@@ -22,7 +22,7 @@ const About = () => {
             <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-13">
               Specialty
             </h1>
-            <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5">
+            <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5 font-bold">
               Allstate Carpets wants to floor you! We specialize in a wide
               variety of flooring and interior finishes: Carpet, Carpet Tile,
               Vinyl Flooring, Wood Flooring, Vinyl Base, Millwork Base, and
@@ -31,10 +31,10 @@ const About = () => {
             </p>
           </div>
           <div className="flex-1 mb-1 rounded-xl shadow-xl md:ml-40  max-w-md justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">
-            <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-13">
+            <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-13 ">
               About Allstate
             </h1>
-            <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5">
+            <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5 font-bold">
               Established in 1971, we are family owned business that has been
               providing outstanding flooring services to the Washington
               metropolitan area for over 50 years. In September of 1971,

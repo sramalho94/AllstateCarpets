@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 
-
 const Testimonials = () => {
   return (
     <div className="flex flex-col mx-auto px-5">

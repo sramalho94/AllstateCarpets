@@ -19,7 +19,7 @@ const NavBar = () => {
             Welcome to Allstate Carpets
           </h1>
           <h1 className="font-medium italic text-[#80241b]">
-            'Let Us Floor You!'
+          &apos;Let Us Floor You!&apos;
           </h1>
         </div>
         <ul className="flex items-center">

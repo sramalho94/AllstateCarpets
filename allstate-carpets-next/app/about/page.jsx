@@ -69,7 +69,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col mt-2  mx-auto ml-5 md:ml-30">
+            <div className="flex flex-col mt-2  mx-auto ml-5 md:ml-30 md:px-10">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"
@@ -115,7 +115,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col mt-2  mx-auto ml-5 md:ml-30">
+            <div className="flex flex-col mt-2  mx-auto ml-5 md:ml-30 md:px-10">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"

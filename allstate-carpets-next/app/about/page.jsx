@@ -50,7 +50,7 @@ const About = () => {
             id="staff-photo-container"
             className="flex justify-center flex-row align-middle my-auto flex-1"
           >
-            <div className="flex flex-col mt-2 p-2 my-auto">
+            <div className="flex flex-col mt-2 mx-auto mr-5">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"
@@ -60,16 +60,16 @@ const About = () => {
                   height={120}
                 />
               </div>
-              <div className='flex flex-col'>
-              <p className="text-center font-bold text-[#80241b]">
-                Lisa Paul, 
-              </p>
-              <p className="text-center font-bold text-[#80241b]">
-              President
-              </p>
+              <div className="flex flex-col">
+                <p className="text-center font-bold text-[#80241b]">
+                  Lisa Paul,
+                </p>
+                <p className="text-center font-bold text-[#80241b]">
+                  President
+                </p>
               </div>
             </div>
-            <div className="flex flex-col mt-2 p-2 mx-auto">
+            <div className="flex flex-col mt-2  mx-auto">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"
@@ -79,40 +79,43 @@ const About = () => {
                   height={120}
                 />
               </div>
-              <div className='flex flex-col'>
-              <p className="text-center font-bold text-[#80241b]">
-                Jeremy Paul, 
-              </p>
-              <p className="text-center font-bold text-[#80241b]">
-              Vice President
-              </p>
+              <div className="flex flex-col">
+                <p className="text-center font-bold text-[#80241b]">
+                  Jeremy Paul,
+                </p>
+                <p className="text-center font-bold text-[#80241b]">
+                  Vice President
+                </p>
               </div>
             </div>
           </div>
           <div
             id="staff-photo-container"
-            className="flex justify-center flex-row align-middle my-auto flex-1"
+            className="flex justify-center flex-row align-middle my-auto flex-1 "
           >
-            <div className="flex flex-col mt-2 p-2 my-auto">
+            <div className="flex flex-col mt-2 mx-auto mr-5">
               <div className="mx-auto">
                 <Image
-                  className="rounded-full  shadow-2xl pt-1"
-                  src="/LisaPaul.jpeg"
+                  className="rounded-full shadow-2xl pt-1"
+                  src="/resizedjeremy.jpg"
                   alt="picture1"
                   width={120}
                   height={120}
                 />
               </div>
-              <div className='flex flex-col'>
-              <p className="text-center font-bold text-[#80241b]">
-                Michael Paul, 
-              </p>
-              <p className="text-center font-bold text-[#80241b]">
-              Lead Flooring Consultant
-              </p>
+              <div className="flex flex-col">
+                <p className="text-center font-bold text-[#80241b]">
+                  Michael Paul,
+                </p>
+                <p className="text-center font-bold text-[#80241b]">
+                  Lead Flooring
+                </p>
+                <p className="text-center font-bold text-[#80241b]">
+                  Consultant
+                </p>
               </div>
             </div>
-            <div className="flex flex-col mt-2 p-2 mx-auto">
+            <div className="flex flex-col mt-2  mx-auto">
               <div className="mx-auto">
                 <Image
                   className="rounded-full shadow-2xl pt-1"
@@ -122,13 +125,13 @@ const About = () => {
                   height={120}
                 />
               </div>
-              <div className='flex flex-col'>
-              <p className="text-center font-bold text-[#80241b]">
-                Sheila Ward, 
-              </p>
-              <p className="text-center font-bold text-[#80241b]">
-              Office Manager
-              </p>
+              <div className="flex flex-col">
+                <p className="text-center font-bold text-[#80241b]">
+                  Sheila Ward,
+                </p>
+                <p className="text-center font-bold text-[#80241b]">
+                  Office Manager
+                </p>
               </div>
             </div>
           </div>

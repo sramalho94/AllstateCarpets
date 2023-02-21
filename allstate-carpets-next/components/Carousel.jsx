@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
-import { Swipeable } from 'react-swipeable'
+import { useSwipeable } from 'react-swipeable'
 
 const Carousel = () => {
   const slides = [
@@ -70,33 +70,42 @@ const Carousel = () => {
     setCurrentIndex(slideIndex)
   }
 
+  // const handlers = useSwipeable({
+  //   onSwipedLeft: (e) => prevSlide(),
+  //   onSwipedRight: (e) => nextSlide()
+  // })
+
   return (
     <div className="max-w-[1440px] h-[full] md:w-[780px] m-auto py-16 px-4 relative group">
       <h1 className="text-4xl font-bold text-center mb-7 text-[#ac1010]">
         Our Work
       </h1>
-      <Swipeable onSwipedLeft={prevSlide} onSwipedRight={nextSlide}>
-        <div
-          className="w-full md:w-[780px] h-full rounded-2xl bg-center bg-cover duration-500"
-          id="1"
-        >
-          <Image
-            alt="image1"
-            width={400}
-            height={400}
-            src={`${slides[currentIndex].url}`}
-            className="w-[780px] h-full rounded-2xl bg-center bg-cover duration-500"
-          />
-          {/* Left Arrow */}
-          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-            <BsChevronCompactLeft onClick={prevSlide} size={30} />
-          </div>
-          {/* Right Arrow */}
-          <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-1 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-            <BsChevronCompactRight size={30} onClick={nextSlide} />
-          </div>
+
+      <div
+        className="w-full md:w-[780px] h-full rounded-2xl bg-center bg-cover duration-500"
+        id="1"
+        {...useSwipeable({
+          onSwipedLeft: () => prevSlide(),
+          onSwipedRight: () => nextSlide()
+        })}
+      >
+        <Image
+          alt="image1"
+          width={400}
+          height={400}
+          src={`${slides[currentIndex].url}`}
+          className="w-[780px] h-full rounded-2xl bg-center bg-cover duration-500"
+        />
+        {/* Left Arrow */}
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+          <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
-      </Swipeable>
+        {/* Right Arrow */}
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-1 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+          <BsChevronCompactRight size={30} onClick={nextSlide} />
+        </div>
+      </div>
+
       <div className="flex top-4 justify-center py-2">
         {slides.map((slide, slideIndex) => (
           <div

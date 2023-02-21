@@ -80,8 +80,8 @@ const Carousel = () => {
         className="w-full md:w-[780px] h-full rounded-2xl bg-center bg-cover duration-500"
         id="1"
         {...useSwipeable({
-          onSwipedLeft: () => prevSlide(),
-          onSwipedRight: () => nextSlide()
+          onSwipedLeft: () => nextSlide(),
+          onSwipedRight: () => prevSlide()
         })}
       >
         <Image

@@ -70,11 +70,6 @@ const Carousel = () => {
     setCurrentIndex(slideIndex)
   }
 
-  // const handlers = useSwipeable({
-  //   onSwipedLeft: (e) => prevSlide(),
-  //   onSwipedRight: (e) => nextSlide()
-  // })
-
   return (
     <div className="max-w-[1440px] h-[full] md:w-[780px] m-auto py-16 px-4 relative group">
       <h1 className="text-4xl font-bold text-center mb-7 text-[#ac1010]">

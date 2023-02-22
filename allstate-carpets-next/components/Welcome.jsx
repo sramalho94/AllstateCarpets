@@ -14,7 +14,7 @@ const Welcome = () => {
     >
       <div className="flex flex-col my-10 mx-5 md:mt-80 justify-end">
         <div className="bg-white rounded-2xl bg-opacity-50 px-5 py-2">
-          <h1 className="font-bold text-center text-xl text-[#ac1010]">
+          <h1 className="font-bold text-center text-3xl text-[#ac1010]">
             Welcome to Allstate Carpets
           </h1>
           <p className="text-center max-w-lg text-[#ac1010] font-bold ">

@@ -15,11 +15,11 @@ const NavBar = () => {
           />
         </Link>
         <div className="md:flex md:flex-col my-auto hidden ">
-          <h1 className="font-bold text-l text-[#80241b] md:text-3xl text-scale">
+          <h1 className="font-bold text-l text-[#80241b] md:text-5xl text-scale">
             Welcome to Allstate Carpets
           </h1>
           <h1 className="font-medium italic text-[#80241b]">
-          &apos;Let Us Floor You!&apos;
+            &apos;Let Us Floor You!&apos;
           </h1>
         </div>
         <ul className="flex items-center">

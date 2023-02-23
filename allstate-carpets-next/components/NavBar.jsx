@@ -26,7 +26,7 @@ const NavBar = () => {
           <li>
             <Link
               href="/"
-              className="text-[#ac1010] text-lg font-bold rounded p-2 hover:bg-[#a4614c]"
+              className="text-[#ac1010] text-l font-bold rounded p-2 hover:bg-[#a4614c]"
             >
               {' '}
               Home

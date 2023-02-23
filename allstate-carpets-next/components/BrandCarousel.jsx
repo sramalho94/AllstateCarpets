@@ -33,7 +33,7 @@ const BrandCarousel = () => {
   return (
     <div className="w-full bg-white bg-opacity-50 py-3">
       <h1 className="text-3xl md:text-4xl font-bold text-[#ac1010] text-center pb-3">
-        Our Partners
+        Our Clients
       </h1>
       <div className="w-1/2 my-auto mx-auto ">
         <Slider {...settings}>

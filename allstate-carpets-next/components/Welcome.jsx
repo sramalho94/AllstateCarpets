@@ -13,8 +13,8 @@ const Welcome = () => {
       className="flex flex-col md:flex-row-reverse w-screen bg-cover md:justify-between lg:justify-around bg-center"
     >
       <div className="flex flex-col my-10 mx-5 md:mt-80 justify-end">
-        <div className="bg-white rounded-2xl bg-opacity-50 px-5 py-2">
-          <h1 className="font-bold text-center text-3xl text-[#ac1010]">
+        <div className="bg-white rounded-2xl bg-opacity-50 px-5 py-4">
+          <h1 className="font-bold text-center text-3xl text-[#ac1010] pb-2">
             Welcome to Allstate Carpets
           </h1>
           <p className="text-center max-w-lg text-[#ac1010] font-bold ">

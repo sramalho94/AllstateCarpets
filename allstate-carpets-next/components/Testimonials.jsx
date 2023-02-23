@@ -13,7 +13,7 @@ const Testimonials = () => {
             src="/Aveda3.jpeg"
             fill
             alt="floor1"
-            className="object-fill"
+            className="object-cover"
           />
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
@@ -40,7 +40,7 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="relative h-40 md:h-96 w-96 max-h-md">
-          <Image src="/Loop1.jpeg" fill alt="floor2" />
+          <Image src="/Loop1.jpeg" fill alt="floor2" className='object-cover'/>
         </div>
       </div>
       <div className="flex flex-row justify-center pb-10">

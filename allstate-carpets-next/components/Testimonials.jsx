@@ -10,7 +10,7 @@ const Testimonials = () => {
       <div className="flex flex-row justify-center pb-10">
         <div className="relative h-40 md:h-96 w-96  mr-5 max-h-md">
           <Image
-            src="/stockfloor2seg1.jpeg"
+            src="/Aveda3.jpeg"
             fill
             alt="floor1"
             className="object-fill"
@@ -40,13 +40,13 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="relative h-40 md:h-96 w-96 max-h-md">
-          <Image src="/stockfloor2seg2.jpeg" fill alt="floor2" />
+          <Image src="/Loop1.jpeg" fill alt="floor2" />
         </div>
       </div>
       <div className="flex flex-row justify-center pb-10">
         <div className="relative h-40 md:h-96 w-96  mr-5">
           <Image
-            src="/stockfloor1.jpg"
+            src="/Parsons4.jpeg"
             fill
             alt="floor3"
             className="object-cover"

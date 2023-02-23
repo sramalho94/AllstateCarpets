@@ -4,6 +4,7 @@ import './globals.css'
 import Welcome from '@/components/Welcome'
 import Carousel from '@/components/Carousel'
 import Testimonials from '@/components/Testimonials'
+import BrandCarousel from '@/components/BrandCarousel'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Carousel />
       </div>
       <Testimonials />
+      <BrandCarousel />
     </main>
   )
 }

@@ -21,7 +21,7 @@ const Carousel = () => {
       url: '/Dispensery3.jpg'
     },
     {
-      url: '/Dispensery4.jpg'
+      url: '/Parsons2.jpeg'
     },
     {
       url: '/pic4.jpeg'
@@ -49,6 +49,15 @@ const Carousel = () => {
     },
     {
       url: '/pic11.jpeg'
+    },
+    {
+      url: '/BrandyWine3.jpeg'
+    },
+    {
+      url: '/LeoDaly.jpeg'
+    },
+    {
+      url: '/Votenet2.jpeg'
     }
   ]
 

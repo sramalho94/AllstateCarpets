@@ -25,8 +25,12 @@ const Testimonials = () => {
             professional, efficient, and went above and beyond to ensure the
             project was completed on time and within budget. I highly recommend
             Allstate Carpets for all your commercial flooring needs.&rsquo;
-          </p>
-        </div>
+            <br></br>
+            <br></br>
+            -Andrew Choi
+            <br></br>
+            Project Manger for Teel Construction</p>
+          </div>
       </div>
       <div className="flex flex-row justify-center pb-10">
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center mr-5">
@@ -37,6 +41,11 @@ const Testimonials = () => {
             carpet looks beautiful and has received many compliments. We will
             definitely be using Allstate Carpets for our future flooring
             projects.&rsquo;
+            <br></br>
+            <br></br>
+            -Robert Starling
+            <br></br>
+            Senior Project Manager for Simpson Properties
           </p>
         </div>
         <div className="relative h-40 md:h-96 w-96 max-h-md">
@@ -60,7 +69,12 @@ const Testimonials = () => {
             recommendations on the best flooring options for our needs. We
             couldn&apos;t be happier with the results and highly recommend
             Allstate Carpets.&rsquo;
-          </p>
+            <br></br>
+            <br></br>
+            -Dave Hargrave
+            <br></br>
+            Estimator for Pizzano Contractors</p>
+            
         </div>
       </div>
     </div>

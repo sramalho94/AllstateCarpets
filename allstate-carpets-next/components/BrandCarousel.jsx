@@ -47,7 +47,7 @@ const BrandCarousel = () => {
                 src={image}
                 alt={`gallery-image-${index}`}
                 fill
-                className=" pl-3 pr-1"
+                className="pl-3 pr-1"
               />
             </div>
           ))}

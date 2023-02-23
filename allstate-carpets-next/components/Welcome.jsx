@@ -1,4 +1,4 @@
-import bg from './/../public/allstate-banner.jpeg'
+import bg from './/../public/allstate-banner.png'
 import Link from 'next/link'
 
 const Welcome = () => {

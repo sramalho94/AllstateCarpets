@@ -1,4 +1,4 @@
-import bg from './/../public/TransparentBG2.jpeg'
+import bg from './/../public/allstate-banner.jpeg'
 import Link from 'next/link'
 
 const Welcome = () => {
@@ -6,9 +6,8 @@ const Welcome = () => {
     <div
       style={{
         backgroundImage: `url(${bg.src})`,
-
-        width: '100%'
-        // height: '100%'
+        width: '100%',
+        backgroundColor: 'rgb(255, 255, 255, 0.5)'
       }}
       className="flex flex-col md:flex-row-reverse w-screen bg-cover md:justify-between lg:justify-around bg-center"
     >

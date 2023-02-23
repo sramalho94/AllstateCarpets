@@ -13,10 +13,10 @@ export default function Home() {
     <main className="bg-[#e3cba3] bg-cover">
       <div>
         <Welcome />
+        <BrandCarousel />
         <Carousel />
       </div>
       <Testimonials />
-      <BrandCarousel />
     </main>
   )
 }

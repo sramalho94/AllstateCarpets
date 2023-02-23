@@ -15,7 +15,7 @@ const NavBar = () => {
           />
         </Link>
         <div className="md:flex md:flex-col my-auto hidden ">
-          <h1 className="font-bold text-l text-[#80241b] md:text-5xl text-scale pt-4">
+          <h1 className="font-bold text-l text-[#80241b] md:text-4xl xl:text-5xl text-scale pt-4">
             Welcome to Allstate Carpets
           </h1>
           <h1 className="font-medium italic text-[#80241b]">

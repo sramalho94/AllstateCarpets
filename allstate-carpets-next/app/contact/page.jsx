@@ -38,7 +38,7 @@ const Contact = () => {
                   Monday
                 </h1>
                 <p className="my-auto font-bold text-[#ac1010]">
-                  7:00 AM - 5:00 PM
+                  7:00 AM - 4:00 PM
                 </p>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                   Tuesday
                 </h1>
                 <p className="my-auto font-bold text-[#ac1010]">
-                  7:00 AM - 5:00 PM
+                  7:00 AM - 4:00 PM
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                   Wednesday
                 </h1>
                 <p className="my-auto font-bold text-[#ac1010]">
-                  7:00 AM - 5:00 PM
+                  7:00 AM - 4:00 PM
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                   Thursday
                 </h1>
                 <p className="my-auto font-bold text-[#ac1010]">
-                  7:00 AM - 5:00 PM
+                  7:00 AM - 4:00 PM
                 </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                   Friday
                 </h1>
                 <p className="my-auto font-bold text-[#ac1010]">
-                  7:00 AM - 5:00 PM
+                  7:00 AM - 4:00 PM
                 </p>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                 <h1 className="text-2xl pr-3 font-bold text-[#ac1010]">
                   Saturday
                 </h1>
-                <p className="my-auto font-bold text-[#ac1010]">Closed</p>
+                <p className="my-auto font-bold text-[#ac1010]">By Appt. Only</p>
               </div>
             </div>
           </div>

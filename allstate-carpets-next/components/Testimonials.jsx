@@ -18,10 +18,9 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
           <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
-            &rsquo;As a property manager, I&apos;ve worked with many flooring
-            companies over the years, and Allstate Carpets is by far the best.
-            They recently installed luxury vinyl tile in one of my office
-            buildings, and the results were outstanding. The team was
+            &rsquo;As a project manager, I&apos;ve worked with many flooring
+            companies over the years, and Allstate Carpets is very responsive.
+            They recently installed luxury vinyl tile and sheet vinyl on one of our recent projects, and the results were outstanding. The team was
             professional, efficient, and went above and beyond to ensure the
             project was completed on time and within budget. I highly recommend
             Allstate Carpets for all your commercial flooring needs.&rsquo;
@@ -63,9 +62,8 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
           <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
-            &rsquo;Allstate Carpets is one of our go-to flooring companies for our office buildouts. They recently installed new sheet vinyl and LVT in one of our
-            locations, and it was a seamless process from start to finish. The
-            team was always on time, professional, and provided us with great
+            &rsquo;Allstate Carpets is one of our go-to flooring companies for our office buildouts. The
+            team is always on time, professional, and provides us with great
             recommendations on the best flooring options for our needs. We
             couldn&apos;t be happier with the results and highly recommend
             Allstate Carpets.&rsquo;

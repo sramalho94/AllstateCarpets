@@ -39,8 +39,7 @@ const About = () => {
               providing outstanding flooring services to the Washington
               metropolitan area for over 50 years. In September of 1971,
               Allstate Building and Carpet Supplies, Inc. was established and
-              moved into a warehouse space in Alexandria, VA. In 1983, Lisa Paul
-              took over the family business. Allstate Carpets continue to
+              moved into a warehouse space in Alexandria, VA. Allstate Carpets continue to
               provide the DMV area with quality flooring products.
             </p>
           </div>
@@ -108,7 +107,7 @@ const About = () => {
                   Michael Paul,
                 </p>
                 <p className="text-center font-bold text-[#80241b]">
-                  Lead Flooring
+                  Flooring
                 </p>
                 <p className="text-center font-bold text-[#80241b]">
                   Consultant

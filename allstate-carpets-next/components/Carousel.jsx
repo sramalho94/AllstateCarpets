@@ -9,10 +9,10 @@ import { useSwipeable } from 'react-swipeable'
 const Carousel = () => {
   const slides = [
     {
-      url: '/Dispensery1.jpg'
+      url: '/Dispensery2.jpg'
     },
     {
-      url: '/Dispensery2.jpg'
+      url: '/Dispensery1.jpg'
     },
     {
       url: '/pic3.jpeg'

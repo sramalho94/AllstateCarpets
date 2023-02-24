@@ -1,4 +1,4 @@
-import bg from './/../public/allstate-banner.png'
+import bg from './/../public/allstate-bg.png'
 import Link from 'next/link'
 
 const Welcome = () => {
@@ -9,7 +9,7 @@ const Welcome = () => {
         width: '100%',
         backgroundColor: 'rgb(255, 255, 255, 0.5)'
       }}
-      className="flex flex-col-reverse md:flex-row-reverse w-screen bg-cover md:justify-between lg:justify-around bg-center"
+      className="flex flex-col-reverse md:flex-row-reverse w-screen bg-cover md:justify-between lg:justify-around md:bg-center bg-left object-cover"
     >
       <div className="flex flex-col  bg-white rounded-2xl my-10 mx-5 bg-opacity-50 md:mt-80">
         <h1 className="font-bold text-xl text-[#ac1010] mt-4 ml-2 text-center">

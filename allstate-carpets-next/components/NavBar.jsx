@@ -4,7 +4,7 @@ import Link from 'next/link'
 const NavBar = () => {
   return (
     <div>
-      <nav className="md:pb-10 flex justify-between bg-[#e3cba3] bg-gradient-to-r from-[#cc7c64] border-b-2 border-[#80241b]">
+      <nav className="md:pb-5 flex justify-between bg-[#e3cba3] bg-gradient-to-r from-[#cc7c64] border-b-2 border-[#80241b]">
         <Link href="/">
           <Image
             src="/aclogo.png "
@@ -16,7 +16,7 @@ const NavBar = () => {
         </Link>
         <div className="md:flex md:flex-col my-auto hidden ">
           <h1 className="font-bold text-l text-[#80241b] md:text-4xl xl:text-5xl text-scale pt-4">
-            Welcome to Allstate Carpets
+            Allstate Carpets
           </h1>
           <h1 className="font-medium italic text-[#80241b]">
             &apos;Let Us Floor You!&apos;

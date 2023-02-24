@@ -5,14 +5,8 @@ const NavBar = () => {
   return (
     <div>
       <nav className="md:pb-5 flex justify-between bg-[#e3cba3] bg-gradient-to-r from-[#cc7c64] border-b-2 border-[#80241b]">
-        <Link href="/">
-          <Image
-            src="/aclogo.png "
-            height={120}
-            width={120}
-            alt="logo"
-            className="md:pl-8 pt-2 md:h-160 md:w-160"
-          />
+        <Link href="/" className="relative h-28 w-28 md:h-36 md:w-36 ml-3">
+          <Image src="/aclogo.png " fill alt="logo" className="" />
         </Link>
         <div className="md:flex md:flex-col my-auto hidden ">
           <h1 className="font-bold text-l text-[#80241b] md:text-4xl xl:text-5xl text-scale pt-4">
@@ -26,7 +20,7 @@ const NavBar = () => {
           <li>
             <Link
               href="/"
-              className="text-[#ac1010] text-l font-bold rounded p-2 hover:bg-[#a4614c]"
+              className="text-[#ac1010] text-l md:text-2xl font-bold rounded p-2 hover:bg-[#a4614c]"
             >
               {' '}
               Home
@@ -35,7 +29,7 @@ const NavBar = () => {
           <li>
             <Link
               href="/about"
-              className="text-[#ac1010] font-bold rounded p-2 hover:bg-[#a4614c] text-scale"
+              className="text-[#ac1010] text-l md:text-2xl font-bold rounded p-2 hover:bg-[#a4614c] text-scale"
             >
               About Us
             </Link>
@@ -43,7 +37,7 @@ const NavBar = () => {
           <li>
             <Link
               href="/contact"
-              className="text-[#ac1010] font-bold rounded p-2 hover:bg-[#a4614c] text-scale"
+              className="text-[#ac1010] text-l md:text-2xl font-bold rounded p-2 hover:bg-[#a4614c] text-scale"
             >
               Contact Us
             </Link>

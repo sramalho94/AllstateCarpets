@@ -16,7 +16,6 @@ export default function Home() {
         <BrandCarousel />
         <Carousel />
       </div>
-      <Testimonials />
     </main>
   )
 }

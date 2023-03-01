@@ -17,7 +17,7 @@ const Testimonials = () => {
           />
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
-          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
+          <p className="whitespace-pre-wrap overflow-y-auto overflow-x-hidden text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
             &rsquo;As a project manager, I&apos;ve worked with many flooring
             companies over the years, and Allstate Carpets is very responsive.
             They recently installed luxury vinyl tile and sheet vinyl on one of
@@ -35,7 +35,7 @@ const Testimonials = () => {
       </div>
       <div className="flex flex-row justify-center pb-10">
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center mr-5">
-          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
+          <p className="whitespace-pre-wrap overflow-y-auto overflow-x-hidden text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
             &rsquo;We recently hired Allstate Carpets to install flooring in our
             office space and it was a great experience from start to finish. The
             team was knowledgeable, courteous, and completed the job with
@@ -63,7 +63,7 @@ const Testimonials = () => {
           />
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
-          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3] md:h-96 md:flex md:flex-col md:justify-center">
+          <p className="whitespace-pre-wrap overflow-y-auto overflow-x-hidden text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3] md:h-96 md:flex md:flex-col md:justify-center">
             &rsquo;Allstate Carpets is one of our go-to flooring companies for
             our office buildouts. The team is always on time, professional, and
             provides us with great recommendations on the best flooring options

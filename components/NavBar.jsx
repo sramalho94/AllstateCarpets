@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div>
       <nav className="md:pb-5 flex justify-between bg-[#e3cba3] bg-gradient-to-r from-[#cc7c64] border-b-2 border-[#80241b]">
-        <Link href="/" className="relative h-28 w-28 md:h-36 md:w-36 ml-3">
+        <Link href="/" className="relative h-28 w-28  ml-3">
           <Image src="/aclogo.png " fill alt="logo" className="" />
         </Link>
         <div className="md:flex md:flex-col my-auto hidden ">

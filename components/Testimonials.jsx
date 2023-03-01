@@ -63,7 +63,7 @@ const Testimonials = () => {
           />
         </div>
         <div className="flex flex-col relative h-40 md:h-96 w-96 overflow-x-auto justify-center ">
-          <p className=" flex flex-col whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3] h-full my-auto">
+          <p className="whitespace-pre-wrap overflow-y-auto  text-center justify-center align-middle bg-[#ac1010] bg-opacity-80 font-bold shadow-xl rounded-xl p-5 text-[#e3cba3]">
             &rsquo;Allstate Carpets is one of our go-to flooring companies for
             our office buildouts. The team is always on time, professional, and
             provides us with great recommendations on the best flooring options

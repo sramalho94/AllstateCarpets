@@ -34,7 +34,7 @@ const About = () => {
             <h1 className="font-bold text-center max-w-lg text-[#80241b] pt-3 md:pl-13 ">
               About Allstate
             </h1>
-            <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5 font-bold">
+            <p className="text-center max-w-lg text-[#ac1010] py-6 mx-5 font-bold">
               Established in 1971, we are a family owned business that has been
               providing outstanding flooring services to the Washington
               metropolitan area for over 50 years. In September of 1971,

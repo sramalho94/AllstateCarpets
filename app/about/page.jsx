@@ -27,7 +27,7 @@ const About = () => {
               variety of flooring and interior finishes: Carpet, Carpet Tile,
               Vinyl Flooring, Wood Flooring, Vinyl Base, Millwork Base, and
               Carpet cleaning services. From start to finish we will work
-              closely with our client and until they are 100% satisfied.
+              closely with our client until they are 100% satisfied.
             </p>
           </div>
           <div className="flex-1 mb-1 rounded-xl shadow-xl md:ml-40  max-w-md justify-center align-middle text-center mx-auto bg-white bg-opacity-60 ">
@@ -35,12 +35,12 @@ const About = () => {
               About Allstate
             </h1>
             <p className="text-center max-w-lg text-[#ac1010] py-5 mx-5 font-bold">
-              Established in 1971, we are family owned business that has been
+              Established in 1971, we are a family owned business that has been
               providing outstanding flooring services to the Washington
               metropolitan area for over 50 years. In September of 1971,
               Allstate Building and Carpet Supplies, Inc. was established and
-              moved into a warehouse space in Alexandria, VA. Allstate Carpets continue to
-              provide the DMV area with quality flooring products.
+              moved into a warehouse space in Alexandria, VA. Allstate Carpets
+              continue to provide the DMV area with quality flooring products.
             </p>
           </div>
         </div>
@@ -106,9 +106,7 @@ const About = () => {
                 <p className="text-center font-bold text-[#80241b]">
                   Michael Paul,
                 </p>
-                <p className="text-center font-bold text-[#80241b]">
-                  Flooring
-                </p>
+                <p className="text-center font-bold text-[#80241b]">Flooring</p>
                 <p className="text-center font-bold text-[#80241b]">
                   Consultant
                 </p>
